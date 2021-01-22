@@ -1,0 +1,55 @@
+Body {
+    margin: 5px;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h1 {
+   margin-right: 15cm;
+}
+
+.in {
+        transition: 0.24;
+          }
+
+.container-avatar {
+    width: 20%;
+    padding: 32px 0px;
+    text-align: top;
+}
+
+.avatar {
+    width: 10%;
+    height: 10%;
+}   
+.div
+
+.button-nav {
+    padding: 40px 40px;
+    margin: 100px;
+        }
+  .left {
+      position: aboslute;
+      right: 0px;
+      width: 300px;
+  }
+.button-nav {
+    border-bottom: 1px solid rgb(241, 236, 236);
+    inline-size: 100px;
+    height: 70px;
+     
+} 
+.button-nav:hover {
+    background-color: rgb(102, 168, 223);
+    color: white
+}
+.body {
+    background-image: url(images-splash2.png); 
+    background-color: rgb(85, 92, 85);
+    background-blend-mode: screen;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
