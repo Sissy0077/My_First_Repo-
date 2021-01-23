@@ -1,29 +1,27 @@
-Body {
+body {
     margin: 5px;
     height: 100vh;
     width: 100vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.h1 {
-   margin-right: 15cm;
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+.heroPage{
+    background-image: url("../images/Splash2.png");
+    background-repeat: no-repeat;
+    background-size: cover;   
 }
-
-.in {
-        transition: 0.24;
-          }
-
-.container-avatar {
-    width: 20%;
-    padding: 32px 0px;
-    text-align: top;
-}
-
-.avatar {
-    width: 10%;
+.heroslogan {
+    Background-image: url("../images/Logo_antsis-outline@2x.png");
     height: 10%;
-}   
-.div
-
+    width: 10%;
+}
 .button-nav {
     padding: 40px 40px;
     margin: 100px;
@@ -36,20 +34,13 @@ Body {
 .button-nav {
     border-bottom: 1px solid rgb(241, 236, 236);
     inline-size: 100px;
-    height: 70px;
+    height: 40px;
      
 } 
 .button-nav:hover {
     background-color: rgb(102, 168, 223);
     color: white
 }
-.body {
-    background-image: url(images-splash2.png); 
-    background-color: rgb(85, 92, 85);
-    background-blend-mode: screen;
-    }
 
-    .responsive {
-        width: 100%;
-        height: auto;
-    }
+
+   
